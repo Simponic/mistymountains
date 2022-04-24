@@ -1,0 +1,7 @@
+a {
+  text-decoration: none;
+}
+
+.border-darkish {
+  border-bottom: 1px dashed #666666;
+}

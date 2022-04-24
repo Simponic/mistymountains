@@ -9,7 +9,6 @@
     if (!error) {
       return data;
     }
-    console.log(error);
     return [];
   }
 
