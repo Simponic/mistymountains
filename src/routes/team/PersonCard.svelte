@@ -1,26 +1,36 @@
 <script>
-  import PersonBio from './PersonBio.svelte';  
-
   export let person;
   export let direction;
 </script>
 
 <main>
-  <div class="row">
-    {#if direction == 'right'}
-      <div class="col-sm-3">
-        <img class="img-fluid" src={person.image} alt={person.name} />
+  {#if direction == 'right'}
+    <div class="row d-flex align-items-center my-2">
+      <div class="col-md-4 text-center">
+        <img class="img-fluid rounded shadow" src={person.image} alt={person.name} />
       </div>
-      <div class="col-sm-9">
-        <PersonBio bio={person.bio} />
+      <div class="col-md-8 border p-2 bg-light rounded shadow">
+        <h2>{person.name}, {person.position}</h2>
+        <p>{person.bio}</p>
+        <a href="mailto:{person.email}"><p>{person.email}</p></a>
       </div>
-    {:else}
-      <div class="col-sm-9">
-        <PersonBio bio={person.bio} />
+    </div>
+  {:else}
+    <div class="row d-flex align-items-center my-2">
+      <div class="col-md-8 border p-2 bg-light rounded shadow">
+        <h2>{person.name}, {person.position}</h2>
+        <p>{person.bio}</p>
+        <a href="mailto:{person.email}"><p>{person.email}</p></a>
       </div>
-      <div class="col-sm-3">
-        <img class="img-fluid" src={person.image} alt={person.name} />
+      <div class="col-md-4 text-center">
+        <img class="img-fluid rounded shadow" src={person.image} alt={person.name} />
       </div>
-    {/if}
-  </div>
+    </div>
+  {/if}
 </main>
+
+<style>
+  p {
+    white-space: pre-wrap;
+  }
+</style>

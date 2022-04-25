@@ -37,6 +37,8 @@
         </div>
         <div class="p-1">
           <span class="text-muted">Copyright &copy; 2022 Misty Mountains Therapy</span>
+          <br>
+          <span class="text-muted">High quality therapy services for the Rexburg area.</span>
         </div>
       </div>
     </div>

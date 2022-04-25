@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="toggle">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ">
         <li class="nav-item active">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -26,7 +26,7 @@
       </ul>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="btn btn-success" href="/contact">Contact Us</a>
+          <a class="btn btn-primary" href="/contact">Contact Us</a>
         </li>
       </ul>
     </div>
