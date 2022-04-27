@@ -1,5 +1,5 @@
 <script>
-  import PersonCard from './PersonCard.svelte';  
+  import DirectionCard from '../../components/DirectionCard.svelte';
 
   import { onMount } from 'svelte';
   import { supabase } from '$lib/supabase';
@@ -32,10 +32,15 @@
 </script>
 
 <main>
+  <h1 class="text-center">Our Team</h1>
   {#if people.length}
     {#each people as person, i}
-      <div class="row">
-        <PersonCard person={person} direction={i % 2 ? 'left' : 'right'} />
+      <div class="row border-bottom">
+        <DirectionCard imageSpec={{image: person.image, alt: person.name}} direction={i % 2 ? 'left' : 'right'}>
+          <h2>{person.name}, {person.position}</h2>
+          <p>{person.bio}</p>
+          <a href="mailto:{person.email}"><p>{person.email}</p></a>
+        </DirectionCard>
       </div>
     {/each}
   {/if}

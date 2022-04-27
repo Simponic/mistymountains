@@ -15,10 +15,10 @@
           <a class="nav-link" href="/team">Our Team</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/#/service">Services</a>
+          <a class="nav-link" href="/services">Services</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/#/service">Approach</a>
+          <a class="nav-link" href="/approach">Approach</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="https://joni-hunt.clientsecure.me/" target="_blank">Portal</a>
