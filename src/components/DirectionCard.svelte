@@ -24,9 +24,3 @@
     </div>
   {/if}
 </main>
-
-<style>
-  p {
-    white-space: pre-wrap;
-  }
-</style>

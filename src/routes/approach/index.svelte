@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <div style="text-align:center">
-          <img src="https://ztxoywaazhxdeiftmsiy.supabase.co/storage/v1/object/public/mistymountains/boats.jpg" style="width:60%">
+          <img src="https://ztxoywaazhxdeiftmsiy.supabase.co/storage/v1/object/public/mistymountains/boats.jpg" alt="boats in water" style="width:60%">
         </div>
         <br>
         <p>I meet each client where they are at and customize their therapeutic journey to best fit their personality and issues. The approaches I use most are listed below:</p>

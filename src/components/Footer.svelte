@@ -7,7 +7,7 @@
           <div class="d-flex flex-row align-items-center border-darkish p-1">
             <i class="bi bi-telephone"></i>
             <div class="px-4">
-              <span>(530) 638 - 3546 (call or text)</span>
+              <span>(530) 638 - 3546</span>
             </div>
           </div>
         </a>

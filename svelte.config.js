@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,7 +9,17 @@ const config = {
 
 	kit: {
 		adapter: adapter()
-	}
+	},
+
+  csp: {
+    mode: 'auto',
+    directives: {
+      'script-src': ['self', 'https://hcaptcha.com', 'https://*.hcaptcha.com'],
+      'frame-src': ['self', 'https://hcaptcha.com', 'https://*.hcaptcha.com'],
+      'style-src': ['self', 'https://hcaptcha.com', 'https://*.hcaptcha.com'],
+      'connect-src': ['self', 'https://hcaptcha.com', 'https://*.hcaptcha.com'],
+    }
+  },
 };
 
 export default config;

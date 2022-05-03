@@ -20,7 +20,7 @@
         Misty Mountains Therapy is a privately owned, high quality, specialty therapy clinic, founded in January 2020 by Jefferson Hunt. We are dedicated to providing comprehensive therapy evaluation and treatment services to children and adults for a wide variety of disorders in the most efficient and effective manner possible in the Rexburg area. We believe that therapy should be fun, engaging, and most importantly, useful to our clients.
       </p>
       <p>
-        We are currently accepting new clients and offer a variety of services to help you live the life you desire. To find the right fit for you, schedule a <a href="">free 15-minute consultation</a>.
+        We are currently accepting new clients and offer a variety of services to help you live the life you desire. To find the right fit for you, schedule a <a href="/contact">free 15-minute consultation</a>.
       </p>
     </div>
   </div>
