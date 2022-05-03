@@ -101,17 +101,17 @@
   <form class="bg-light border shadow p-4" on:submit|preventDefault={handleSubmit}>
     <div class="row mb-2">
       <div class="form-group col-md-6">
-        <label>Email *</label>
-        <input type="email" class="form-control" bind:value={submission.email} placeholder="johnnyappleseed@example.com" required>
+        <label for="email">Email *</label>
+        <input id="email" type="email" class="form-control" bind:value={submission.email} placeholder="johnnyappleseed@example.com" required>
       </div>
       <div class="form-group col-md-6">
-        <label>Name *</label>
-        <input type="text" class="form-control" bind:value={submission.name} placeholder="Johnny Appleseed" required>
+        <label for="name">Name *</label>
+        <input id="name" type="text" class="form-control" bind:value={submission.name} placeholder="Johnny Appleseed" required>
       </div>
     </div>
     <div class="form-group">
-      <label>Message *</label>
-      <textarea class="form-control" bind:value={submission.message} rows="3" placeholder="Hello! I would like to schedule a free 15-minute consultation..." required></textarea>
+      <label for="message">Message *</label>
+      <textarea id="message" class="form-control" bind:value={submission.message} rows="3" placeholder="Hello! I would like to schedule a free 15-minute consultation..." required></textarea>
     </div>
     <div class="pt-2">
       <HCaptcha 
