@@ -11,7 +11,7 @@
 <div class="bg-light rounded p-2 shadow">
   <div class="d-flex justify-content-center">
     <div class="col-md-8 mt-2 border-bottom">
-      <h3>Darkness must pass, a new day will come, and when the sun shines, it will shine out the clearer.</h3>
+      <h3>"Darkness must pass, a new day will come, and when the sun shines, it will shine out the clearer."</h3>
       <div class="d-flex justify-content-end">
         - Samwise Gamgee
       </div>

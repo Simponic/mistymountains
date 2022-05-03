@@ -7,7 +7,7 @@
           <img src="https://ztxoywaazhxdeiftmsiy.supabase.co/storage/v1/object/public/mistymountains/boats.jpg" alt="boats in water" style="width:60%">
         </div>
         <br>
-        <p>I meet each client where they are at and customize their therapeutic journey to best fit their personality and issues. The approaches I use most are listed below:</p>
+        <p>We meet each client where they are at and customize their therapeutic journey to best fit their personality and issues. Some of the approaches we use most are listed below:</p>
       </div>
     </div>
     <br>
