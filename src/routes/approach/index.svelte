@@ -16,7 +16,7 @@
     <p>CBT focuses on modifying dysfunctional behaviors, thoughts, and emotions. In session, we will identify these harmful processes and determine if they are an accurate depiction of reality. If they are not, we will help you use strategies to challenge and overcome them. </p>
     <h2>Solution Focused Therapy</h2>
 
-    <p>We believe the client is the expert of their own story. If you are coming to see me, it’s possible that you’re overwhelmed with your present situation. We will use the past to provide understanding and reflection, but we will mostly focus on the present and future. We will empower you to create new perspective, possibilities, and plans to actualize your new story.</p>
+    <p>We believe the client is the expert of their own story. If you are coming to see us, it’s possible that you’re overwhelmed with your present situation. We will use the past to provide understanding and reflection, but we will mostly focus on the present and future. We will empower you to create new perspective, possibilities, and plans to actualize your new story.</p>
     <h2>Narrative Therapy</h2>
 
     <p>Sometimes we become our problems. We start to identify as “a depressed person” or “an anxious person”. We can help you learn to see your issues as something you have, but not something that defines you. We will teach you to put some distance between yourself and your issues and empower you to live your life so that you can work on finding out who you really are and what you are capable of.</p>

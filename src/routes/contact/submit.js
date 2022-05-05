@@ -2,17 +2,6 @@ import 'dotenv/config';
 import sgMail from '@sendgrid/mail';
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-export async function get() {
-  const items = [
-    {a: 1, b: 2},
-    {a: 3, b: 4},
-    {a: 5, b: 6},
-  ];
-  return {
-    body: items
-  };
-}
- 
 export async function post({ request }) {
   const body = await request.json();
   const { HCAPTCHA_SECRET, FORM_FROM_EMAIL, FORM_TO_EMAIL } = process.env;
@@ -44,8 +33,7 @@ export async function post({ request }) {
     `,
   };
 
-  const messageSent = await sgMail
-    .send(msg)
+  const messageSent = await sgMail.send(msg)
     .then(() => true)
     .catch((error) => {
       console.error(error);
