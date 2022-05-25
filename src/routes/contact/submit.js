@@ -28,6 +28,7 @@ export async function post({ request }) {
     subject: `Form Submission from ${body.name}`,
     text: `
       Name: ${body.name}
+      Phone Number: ${body.phone || "Not Given"}
       Email: ${body.email}
       Message: ${body.message}
     `,

@@ -7,6 +7,7 @@
     name: '',
     email: '',
     message: '',
+    phone: '',
     captchaToken: '',
   };
 
@@ -108,6 +109,10 @@
         <label for="name">Name *</label>
         <input id="name" type="text" class="form-control" bind:value={submission.name} placeholder="Johnny Appleseed" required>
       </div>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input id="phone" type="text" class="form-control" bind:value={submission.phone} placeholder="(208) 123-4567">
     </div>
     <div class="form-group">
       <label for="message">Message *</label>
