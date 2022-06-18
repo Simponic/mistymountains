@@ -5,7 +5,7 @@
   import { supabase } from '$lib/supabase';
 
   const getPeople = async () => {
-    const { data, error } = await supabase.from('people').select();
+    const { data, error } = await supabase.from('people').select().order('id');
     if (!error) {
       return data;
     }
