@@ -6,16 +6,18 @@
         <div class="d-flex flex-row align-items-center border-darkish p-1">
           <i class="bi bi-telephone"></i>
           <div class="px-4">
-            <a href="tel:15306383546">
-              <span>(530) 638 - 3546</span>
-              (Scheduling/other)
-            </a>
-          </div>
-          <div class="px-4">
-            <a href="tel:18334456077">
-              <span>(833) 445 - 6077 ext. 1</span>
-              (Billing/insurance)
-            </a>
+            <div class="border-darkish">
+              <a href="tel:15306383546">
+                <span>(530) 638 - 3546</span>
+                (Scheduling/other)
+              </a>
+            </div>
+            <div>
+              <a href="tel:18334456077">
+                <span>(833) 445 - 6077 ext. 1</span>
+                (Billing/insurance)
+              </a>
+            </div>
           </div>
         </div>
         <div class="d-flex flex-row align-items-center border-darkish p-1">
