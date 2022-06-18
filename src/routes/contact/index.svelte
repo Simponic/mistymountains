@@ -71,12 +71,16 @@
 <main>
   <h1 class="text-center">Let's get in touch</h1>
   <div class="d-flex justify-content-center flex-row row">
-    <div class="border shadow bg-light py-2 col-lg-3 d-flex align-items-center flex-column m-2">
+    <div class="border shadow bg-light py-2 col-lg-2 d-flex align-items-center flex-column m-2">
       <h1><i class="bi bi-map-fill"></i></h1>
       <p style="hyphens: auto;">
-        <a href="https://goo.gl/maps/DdkzDQTRHBTtG8ys6">534 Trejo Street, Suite 200F
+        <a href="https://goo.gl/maps/DdkzDQTRHBTtG8ys6">534 Trejo Street
         <br>
-        Rexburg, ID, 83440
+        Suite 200F
+        <br>
+        Rexburg, ID
+        <br>
+        83440
         </a>
       </p>
     </div>
@@ -85,10 +89,12 @@
       <p style="hyphens: auto;">
         Call or text
         <br>
-        <a href="tel:15306383546">(530) 638 - 3546</a>
+        For scheduling and other: <a href="tel:15306383546">(530) 638 - 3546</a>
+        <br>
+        For billing and insurance: <a href="tel:18334456077">(833) 445 - 6077 ext. 1</a>
       </p>
     </div>
-    <div class="border shadow bg-light py-2 col-lg-3 d-flex align-items-center flex-column m-2">
+    <div class="border shadow bg-light py-2 col-lg-2 d-flex align-items-center flex-column m-2">
       <h1><i class="bi bi-envelope-fill"></i></h1>
       <p style="hyphens: auto;">
         Email

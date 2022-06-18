@@ -3,32 +3,39 @@
     <div class="row">
       <div class="col-md-6">
         <h3>Contact</h3>
-        <a href="tel:15306383546">
-          <div class="d-flex flex-row align-items-center border-darkish p-1">
-            <i class="bi bi-telephone"></i>
-            <div class="px-4">
+        <div class="d-flex flex-row align-items-center border-darkish p-1">
+          <i class="bi bi-telephone"></i>
+          <div class="px-4">
+            <a href="tel:15306383546">
               <span>(530) 638 - 3546</span>
-            </div>
+              (Scheduling/other)
+            </a>
           </div>
-        </a>
-        <a href="mailto:jeffer@mistymountainsthreapy.com">
-          <div class="d-flex flex-row align-items-center border-darkish p-1">
-            <i class="bi bi-mailbox"></i>
+          <div class="px-4">
+            <a href="tel:18334456077">
+              <span>(833) 445 - 6077 ext. 1</span>
+              (Billing/insurance)
+            </a>
+          </div>
+        </div>
+        <div class="d-flex flex-row align-items-center border-darkish p-1">
+          <i class="bi bi-mailbox"></i>
+          <a href="mailto:jeffer@mistymountainsthreapy.com">
             <div class="px-4">
               <span>jeffer@mistymountainsthreapy.com</span>
             </div>
-          </div> 
-        </a>
-        <a href="https://goo.gl/maps/DdkzDQTRHBTtG8ys6">
-          <div class="d-flex flex-row align-items-center p-1">
-            <i class="bi bi-pin-map"></i>
-            <div class="px-4">
-              <span>534 Trejo Street, Suite 200F</span>
-              <br>
-              <span class="ml-2">Rexburg, ID, 83440</span>
-            </div>
+          </a>
+        </div> 
+        <div class="d-flex flex-row align-items-center p-1">
+          <i class="bi bi-pin-map"></i>
+          <a href="https://goo.gl/maps/DdkzDQTRHBTtG8ys6">
+          <div class="px-4">
+            <span>534 Trejo Street, Suite 200F</span>
+            <br>
+            <span class="ml-2">Rexburg, ID, 83440</span>
           </div>
-        </a>
+          </a>
+        </div>
       </div>
       <div class="col-md-6">
         <h3>About</h3>
