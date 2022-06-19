@@ -87,8 +87,6 @@
     <div class="border shadow bg-light py-2 col-lg-2 d-flex align-items-center flex-column m-2">
       <h1><i class="bi bi-phone-fill"></i></h1>
       <p style="hyphens: auto;">
-        Call or text
-        <br>
         For scheduling and other: <a href="tel:15306383546">(530) 638 - 3546</a>
         <br>
         For billing and insurance: <a href="tel:18334456077">(833) 445 - 6077 ext. 1</a>
