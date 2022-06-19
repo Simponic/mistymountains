@@ -9,13 +9,13 @@
             <div class="border-darkish">
               <a href="tel:15306383546">
                 <span>(530) 638 - 3546</span>
-                (Scheduling/other)
+                (Scheduling/Other)
               </a>
             </div>
             <div>
               <a href="tel:18334456077">
                 <span>(833) 445 - 6077 ext. 1</span>
-                (Billing/insurance)
+                (Billing/Insurance)
               </a>
             </div>
           </div>
