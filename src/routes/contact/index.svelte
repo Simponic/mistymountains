@@ -95,9 +95,9 @@
     <div class="border shadow bg-light py-2 col-lg-2 d-flex align-items-center flex-column m-2">
       <h1><i class="bi bi-envelope-fill"></i></h1>
       <p style="hyphens: auto;">
-        Email
+        For scheduling and other: <a href="mailto:lizmmt22@gmail.com">lizmmt22@gmail.com</a>
         <br>
-        <a href="mailto:jeffer@mistymountainsthreapy.com">jeffer@mistymountainstherapy.com</a>
+        Questions about MMT: <a href="mailto:jeffer@mistymountainsthreapy.com">jeffer@mistymountainstherapy.com</a>
       </p>
     </div>
   </div>
