@@ -3,6 +3,7 @@
 
   import { onMount } from 'svelte';
   import { supabase } from '$lib/supabase';
+  import setImageUrl from '$lib/utils';
 
   const getPeople = async () => {
     const { data, error } = await supabase.from('people').select().order('id');
@@ -12,22 +13,9 @@
     return [];
   }
 
-  const mapImages = (people) => {
-    return people.map((x) => {
-      const { publicURL, error } = supabase
-        .storage
-        .from('mistymountains')
-        .getPublicUrl(x.image);
-      if (!error) {
-        return { ...x, image: publicURL };
-      }
-      return x;
-    });
-  }
-
   let people = [];
   onMount(async () => {
-    people = await getPeople().then(mapImages);
+    people = await getPeople().then((people) => people.map(setImageUrl));
   });
 </script>
 

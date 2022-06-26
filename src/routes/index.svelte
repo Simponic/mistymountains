@@ -1,6 +1,25 @@
 <div class="row align-items-center py-2">
   <div class="col-md-7">
-    <img src="https://ztxoywaazhxdeiftmsiy.supabase.co/storage/v1/object/public/mistymountains/mountains.png" alt="mountains" class="img-fluid rounded shadow">
+    <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+        class="rounded shadow"
+        spaceBetween={50}
+        slidesPerView={1}
+        autoHeight={true}
+        loop={true}
+        navigation
+        pagination={{ clickable: true }}
+        autoplay={true}
+        speed={1000}
+        on:slideChange={() => console.log('slide change')}
+        on:swiper={(e) => console.log(e.detail[0])}
+    >
+      {#each images as { image, alt } (image)}
+        <SwiperSlide>
+          <img class="image-fluid" style="width:100%" src={image} alt={alt} />
+        </SwiperSlide>
+      {/each}
+    </Swiper>
   </div>
   <div class="col-md-5 my-2">
     <h2>Helping you conquer Mount Doom</h2>
@@ -8,7 +27,7 @@
   </div>
 </div>
 
-<div class="bg-light rounded py-3 shadow">
+<div class="bg-light rounded p-3 shadow">
   <div class="d-flex justify-content-center">
     <div class="col-md-8 mt-2 border-bottom">
       <h3>"Darkness must pass, a new day will come, and when the sun shines, it will shine out the clearer."</h3>
@@ -32,4 +51,25 @@
       </div>
     </div>
   </div>
+  <br>
 </div>
+
+<script>
+  import { supabase } from '$lib/supabase';
+  import setImageUrl from '$lib/utils';
+  import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+  import { Swiper, SwiperSlide } from 'swiper/svelte';
+  import 'swiper/css';
+  import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import 'swiper/css/scrollbar';
+  import 'swiper/css/autoplay';
+
+  const images = [
+    { image: 'mountains.png', alt: 'Cloudy mountains in a light sky' },
+    { image: 'office-1-1.jpeg', alt: 'Office room one' },
+    { image: 'office-1-2.jpeg', alt: 'Office room one angle two' },
+    { image: 'office-2-1.jpeg', alt: 'Office room two' },
+    { image: 'office-2-2.jpeg', alt: 'Office room two angle two' },
+  ].map(setImageUrl);
+</script>
