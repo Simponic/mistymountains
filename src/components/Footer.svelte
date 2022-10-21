@@ -7,8 +7,8 @@
           <i class="bi bi-telephone"></i>
           <div class="px-4">
             <div class="border-darkish">
-              <a href="tel:15306383546">
-                <span>(530) 638 - 3546</span>
+              <a href="tel:12084994517">
+                <span>(208) 499 - 4517</span>
                 (Scheduling/Other)
               </a>
             </div>
