@@ -69,7 +69,5 @@
     { image: 'mountains.png', alt: 'Cloudy mountains in a light sky' },
     { image: 'office-1-1.jpeg', alt: 'Office room one' },
     { image: 'office-1-2.jpeg', alt: 'Office room one angle two' },
-    { image: 'office-2-1.jpeg', alt: 'Office room two' },
-    { image: 'office-2-2.jpeg', alt: 'Office room two angle two' },
   ].map(setImageUrl);
 </script>
