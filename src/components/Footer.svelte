@@ -22,9 +22,9 @@
         </div>
         <div class="d-flex flex-row align-items-center border-darkish p-1">
           <i class="bi bi-mailbox"></i>
-          <a href="mailto:jeffer@mistymountainsthreapy.com">
+          <a href="mailto:jeffer@mistymountainstherapy.com">
             <div class="px-4">
-              <span>jeffer@mistymountainsthreapy.com</span>
+              <span>jeffer@mistymountainstherapy.com</span>
             </div>
           </a>
         </div> 
