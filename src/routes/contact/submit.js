@@ -69,18 +69,16 @@ export async function post({ request }) {
 		};
 	}
 
-	const text = `<h1>new MMT message</h1>
+	const text = `<p>New MMT Message</h1>
 <p>Name: ${body.name}</p>
 <p>Phone Number: ${body.phone || 'Not Given'}</p>
 <p>Email: ${body.email}</p>
 <hr>
 <br>
-<p>${body.message}</p>
-<br>
-<p>brought to you by <a href="https://github.com/Simponic/mistymountains">simponic</a></p>`;
+<p>${body.message}</p>`;
 
 	const messageSent = await mailer
-		.sendMail(FORM_TO_EMAIL, `New Message From ${body.name}`, text)
+		.sendMail(FORM_TO_EMAIL, `[MMT-FORM]: New Message From ${body.name}`, text)
 		.then(() => true)
 		.catch((error) => {
 			console.error(error);
