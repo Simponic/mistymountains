@@ -1,6 +1,6 @@
-import { supabase } from './supabase';
+import { supabase } from '../supabase';
 
-const setImageUrl = (imageSpec) => {
+export const setImageUrl = (imageSpec) => {
   const { publicURL, error } = supabase
     .storage
     .from('mistymountains')
@@ -10,5 +10,3 @@ const setImageUrl = (imageSpec) => {
   }
   return imageSpec;
 }
-
-export default setImageUrl;
