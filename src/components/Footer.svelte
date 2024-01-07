@@ -45,7 +45,7 @@
           <a href="https://docs.google.com/document/d/10S_-yfiaDZnuD-0tvXTEIIyZiErVwrTj0y_0JiRT5_U/edit?usp=sharing" target="_blank">Privacy Policy</a>
         </div>
         <div class="p-1">
-          <span class="text-muted">Copyright &copy; 2022 Misty Mountains Therapy</span>
+          <span class="text-muted">Copyright &copy; 2024 Misty Mountains Therapy</span>
           <br>
           <span class="text-muted">High quality therapy services for the Rexburg area.</span>
         </div>

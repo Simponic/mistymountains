@@ -69,7 +69,7 @@
 </script>
 
 <main>
-  <h1 class="text-center">Let's get in touch</h1>
+  <h1 class="text-center">Get in touch</h1>
   <div class="d-flex justify-content-center flex-row row">
     <div class="border shadow bg-light py-2 col-lg-2 d-flex align-items-center flex-column m-2">
       <h1><i class="bi bi-map-fill"></i></h1>
@@ -102,6 +102,7 @@
     </div>
   </div>
   <br>
+  <hr>
   <h3>Or send us a message</h3>
   <form class="bg-light border shadow p-4" on:submit|preventDefault={handleSubmit}>
     <div class="row mb-2">
