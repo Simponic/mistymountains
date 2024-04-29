@@ -6,18 +6,9 @@
         <div class="d-flex flex-row align-items-center border-darkish p-1">
           <i class="bi bi-telephone"></i>
           <div class="px-4">
-            <div class="border-darkish">
-              <a href="tel:12084994517">
-                <span>(208) 499 - 4517</span>
-                (Scheduling/Other)
-              </a>
-            </div>
-            <div>
-              <a href="tel:18334456077">
-                <span>(833) 445 - 6077 ext. 1</span>
-                (Billing/Insurance)
-              </a>
-            </div>
+            <a href="tel:12084994517">
+              <span>(208) 499 - 4517</span>
+            </a>
           </div>
         </div>
         <div class="d-flex flex-row align-items-center border-darkish p-1">
